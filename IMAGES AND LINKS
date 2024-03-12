@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assign on Images and links</title>
+        <style>
+            body {
+                font-size: 16px; /* Global font size for the entire page */
+            }
+            
+            section img {
+                display: block; /* Make images block-level elements to stack vertically */
+                margin-bottom: 20px; /* Add spacing below each image */
+            }
+
+            h1 {
+                font-size: 24px; /* Font size for level 1 headings (e.g., H1) */
+            }
+
+            p {
+                font-size: 18px; /* Font size for paragraphs */
+            }
+
+            ul li {
+                font-size: 18px; /* Font size for list items */
+            }
+        </style>
+    </head>
+    <body>
+        <section id="Home">
+           <h1>HOME</h1>
+           <p>Welcome here!!</p>
+           <img src="technologys_rol.jpg" alt="Technology" width="356" height="200"/>
+        </section>
+        <section id="Gallery">
+            <h1>GALLERY</h1>
+            <img src="holding-a-tree-in-a-ball-ecology-and-environment-concept-with-generative-ai-photo.jpg"alt="Nature picture">
+            <img src="flowers-276014_640.jpg" alt="Nature pics" width="356" height="200">
+        </section>
+        <section id="Menu">
+            <h1>MENU</h1>
+            <ul>
+                <li>Spaghetti<img src="1490188710731.jpeg" alt="This is spaghetti" width="356" height="200" ></li>
+                <li>Mushroom risotto<img src="Mushroom-Risotto-3.jpg" alt="This is Mushroom risotto" width="356" height="200"></li>
+                <li>Rigatoni pasta<img src="rigatoni pasta.jpg" alt="This is Rigatoni pasta" width="356" height="200"></li>
+                <li>Lasagna<img src="Lasagna.jpg" alt="This is lasagna" width="356" height="200"></li>
+                <li>Cabonara<img src="Carbonara.jpg" alt="This is Carbonara" width="356" height="200"></li>
+                <li>Ravioli<img src="ravioli.jpg" alt="This is Ravioli" width="356" height="200"></li>
+                <li>Tortellini<img src="tortellini.jpg" alt="This is Tortellini" width="356" height="200"></li>
+                <li>Gnocchi<img src="Gnocchi.jpg" alt="This is Gnocchi" width="356" height="200"></li>
+                <li>Polenta<img src="Polenta.jpg" alt="This is Polenta" width="356" height="200"></li>
+                <li>Cacio e Pepe<img src="cacio-e-pepe-.jpg" alt="This is cacio-e-pepe" width="356" height="200"></li>
+            </ul>
+        </section>
+    </body>
+</html>
